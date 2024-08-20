@@ -76,6 +76,7 @@ void InsertAfterAnElement()
         {
             temp->next= ptr->next;
             ptr->next= temp;
+            break;
         }
 }
 
